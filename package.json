@@ -2,7 +2,7 @@
     "name": "reopenclosedtab",
     "displayName": "Reopen Closed Tab",
     "description": "A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "uyiosa-enabulele",
     "homepage": "https://github.com/xmile1/reopenclosedtab/blob/master/README.md",
     "repository": {
