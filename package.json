@@ -1,0 +1,52 @@
+{
+    "name": "reopenclosedtab",
+    "displayName": "Reopen Closed Tab",
+    "description": "A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu",
+    "version": "1.0.0",
+    "publisher": "uyiosa-enabulele",
+    "homepage": "https://github.com/xmile1/reopenclosedtab/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xmile1/reopenclosedtab.git"
+    },
+    "bugs": {
+        "url": "https://github.com/xmile1/reopenclosedtab/issues",
+        "email": "smcbreen@microsoft.com"
+    },
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "galleryBanner": {
+        "color": "#eff1f3",
+        "theme": "light"
+    },
+    "categories": [
+        "Programming Languages",
+        "Other"
+    ],
+    "keywords": ["reopen", "closed", "tabs", "editor"],
+    "icon":"icon.png",
+    "activationEvents": [],
+    "main": "./extension",
+    "contributes": {
+        "menus": {
+            "editor/title/context": [
+                {
+                    "command": "workbench.action.reopenClosedEditor",
+                    "group": "3_preview"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
