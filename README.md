@@ -14,4 +14,4 @@ ___
 This project is under the MIT license.
 
 
-[demo]: https://github.com/xmile1/reopenclosedtab/reopen-demo.gif "Demo"
+[demo]: https://github.com/xmile1/reopenclosedtab/blob/master/reopen-demo.gif "Demo"
