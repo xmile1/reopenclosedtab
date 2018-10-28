@@ -2,7 +2,7 @@
     "name": "reopenclosedtab",
     "displayName": "Reopen Closed Tab",
     "description": "A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "publisher": "uyiosa-enabulele",
     "homepage": "https://github.com/xmile1/reopenclosedtab/blob/master/README.md",
     "repository": {
@@ -11,7 +11,7 @@
     },
     "bugs": {
         "url": "https://github.com/xmile1/reopenclosedtab/issues",
-        "email": "smcbreen@microsoft.com"
+        "email": "hiskonxeptz@gmail.com"
     },
     "engines": {
         "vscode": "^1.25.0"
@@ -26,8 +26,6 @@
     ],
     "keywords": ["reopen", "closed", "tabs", "editor"],
     "icon":"icon.png",
-    "activationEvents": [],
-    "main": "./extension",
     "contributes": {
         "menus": {
             "editor/title/context": [
